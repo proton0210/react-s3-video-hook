@@ -1,6 +1,6 @@
 {
   "name": "react-s3-video-hook",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React hook for fetching and displaying videos from AWS S3",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
