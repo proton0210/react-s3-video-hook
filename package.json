@@ -1,0 +1,40 @@
+{
+  "name": "react-s3-video-hook",
+  "version": "1.0.2",
+  "description": "A React hook for fetching and displaying videos from AWS S3",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "@aws-sdk/client-s3": "^3.0.0",
+    "@tanstack/react-query": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@rollup/plugin-typescript": "^8.0.0",
+    "rollup": "^2.0.0",
+    "typescript": "^4.0.0",
+    "jest": "^27.0.0",
+    "@testing-library/react": "^14.0.0"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "aws",
+    "s3",
+    "video"
+  ],
+  "author": "Vidit Shah",
+  "license": "MIT"
+}
